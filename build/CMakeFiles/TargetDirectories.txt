@@ -1,0 +1,8 @@
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/CMakeFiles/edit_cache.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/CMakeFiles/rebuild_cache.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/src/CMakeFiles/TeleLogLib.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/src/CMakeFiles/edit_cache.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/src/CMakeFiles/rebuild_cache.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/app/CMakeFiles/TeleLog.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/app/CMakeFiles/edit_cache.dir
+/home/muhamed/ITI/ITI_FADY/Projects/LoggingAndTelemery/project/phase_2/build/app/CMakeFiles/rebuild_cache.dir

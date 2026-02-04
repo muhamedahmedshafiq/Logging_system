@@ -3,14 +3,14 @@
 #include <vector>
 
 // Phase 1 Includes
-#include "LogManager.hpp"
-#include "LogMessage.hpp"
-#include "ConsoleSinkImpl.hpp"
-#include "FileSinkImpl.hpp"
+#include "logger/LogManager.hpp"
+#include "logger/LogMessage.hpp"
+#include "sink/ConsoleSinkImpl.hpp"
+#include "sink/FileSinkImpl.hpp"
 
 // Phase 2 Includes (The new stuff!)
-#include "FileTelemetrySourceImpl.hpp"
-#include "SocketTelemetrySourceImpl.hpp"
+#include "sources/FileTelemetrySourceImpl.hpp"
+#include "sources/SocketTelemetrySourceImpl.hpp"
 
 int main() {
     std::cout << "--- Phase 2: RAII & Source Management Test ---" << std::endl;
@@ -39,7 +39,7 @@ int main() {
                 LogMessage msg("TelemetrySystem", 
                "SourceScanner", 
                LogType::INFO, 
-               std::chrono::system_clock::now(), // Add this!
+               std::chrono::system_clock::now(), 
                "Raw Data Read: " + rawData);
                 
                 logMang.addLog(std::move(msg));
