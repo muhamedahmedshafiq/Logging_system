@@ -1,8 +1,13 @@
 cmake_minimum_required(VERSION 3.10)
+project(TeleLogSystem)
 
-project(TeleLog)
+# 1. SET C++ STANDARD
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
+# 2. FIND THREADS (Crucial: Must be in root)
+find_package(Threads REQUIRED)
 
+# 3. ADD SUBDIRECTORIES
 add_subdirectory(src)
 add_subdirectory(app)

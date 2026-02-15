@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/TeleLog.dir/main.cpp.o -o ../TeleLog  ../src/libTeleLogLib.a 

@@ -1,5 +1,11 @@
-add_executable(${PROJECT_NAME} main.cpp)
+# Define the executable
+add_executable(TeleLog main.cpp)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE TeleLogLib)
+# Link the Library and the Threads for final binary generation
+target_link_libraries(TeleLog PRIVATE TeleLogLib Threads::Threads)
 
-target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/inc)
+# Header paths for main.cpp
+target_include_directories(TeleLog PRIVATE 
+    ${CMAKE_SOURCE_DIR}/inc
+    ${CMAKE_SOURCE_DIR}/inc/formatter
+)

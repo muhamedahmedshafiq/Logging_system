@@ -1,2 +1,0 @@
-/usr/bin/ar qc libTeleLogLib.a CMakeFiles/TeleLogLib.dir/logger/LogMessage.cpp.o CMakeFiles/TeleLogLib.dir/logger/LogManager.cpp.o CMakeFiles/TeleLogLib.dir/sink/ConsoleSinkImpl.cpp.o CMakeFiles/TeleLogLib.dir/sink/FileSinkImpl.cpp.o CMakeFiles/TeleLogLib.dir/raii/SafeFile.cpp.o CMakeFiles/TeleLogLib.dir/raii/SafeSocket.cpp.o CMakeFiles/TeleLogLib.dir/sources/FileTelemetrySourceImpl.cpp.o CMakeFiles/TeleLogLib.dir/sources/SocketTelemetrySourceImpl.cpp.o
-/usr/bin/ranlib libTeleLogLib.a
